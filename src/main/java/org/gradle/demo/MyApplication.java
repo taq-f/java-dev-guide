@@ -7,7 +7,7 @@ import javax.ws.rs.ApplicationPath;
 @ApplicationPath("/api")
 public class MyApplication extends ResourceConfig {
 
-  public MyApplication() {
-    packages(this.getClass().getPackage().getName());
-  }
+    public MyApplication() {
+        packages(this.getClass().getPackage().getName());
+    }
 }

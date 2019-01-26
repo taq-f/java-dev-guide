@@ -8,9 +8,9 @@ import javax.ws.rs.core.MediaType;
 @Path("/hello")
 public class MyResource {
 
-  @GET
-  @Produces(MediaType.TEXT_PLAIN)
-  public String hello() {
-    return "Hello, World!!";
-  }
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String hello() {
+        return "Hello, World!!";
+    }
 }
